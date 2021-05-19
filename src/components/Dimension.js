@@ -4,6 +4,7 @@ import { useQuery } from '@apollo/client';
 import { Pagination} from 'antd';
 import CharacterSkeleton from "./CharacterSkeleton";
 import ErrorMessage from "./ErrorMessage";
+import './Dimension.css'
 
 
 
@@ -39,7 +40,7 @@ const Dimension = ({ pages, setPages, GET_QUERY }) => {
             { data.locations &&
                 data.locations.results.map((location, i) =>
                     <>
-                        <div key={i}>
+                        <div key={i} className="card-dimension">
 
                             <h1 >Location:{location.name} </h1>
                             <h3 >Dimension: {location.dimension} </h3>

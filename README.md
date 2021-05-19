@@ -1,3 +1,13 @@
+Site deploy:	https://fervent-beaver-11ccbd.netlify.app/
+
+Consumed the api 	https://rickandmortyapi.com/
+
+Tecnologies
+
+React.js is used for frontend, create a website how SPA
+Antd	is  a framework of css, in this case is used how components' library of react
+GraphQL	is a standard of transmission of data, is very flexible, adjust to needs of development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
