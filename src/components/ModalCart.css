@@ -1,0 +1,59 @@
+.content-modal {
+     padding: 5%;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     background-color: white;
+}
+
+
+.content-modal p {
+     font-size: 1.2em;
+     line-height: 1;
+     opacity: .5;
+}
+
+.content-modal .title {
+     font-size: 1.7em;
+     opacity: 1;
+     color: #eb2f96;
+}
+
+.content-modal .content-message {
+     display: inline-block;
+     padding-left: 5%;
+}
+
+.card-modal {
+     width: 20%;
+     display: inline-block;
+     padding: 1%;
+}
+
+.card-modal img{
+     width: 100%;
+     height: auto;
+}
+
+.card-modal:hover{
+     opacity: .6;
+}
+@media (max-width: 768px) {
+     .card-modal{
+          width: 33.33%;
+     }
+}
+
+@media (max-width: 600px) {
+     .card-modal{
+          width: 50%;
+     }
+     .content-modal {
+          display: block;
+     }
+     .content-modal .content-message {
+          padding-left: 0;
+          padding-top: 5%;
+     }
+}
+
